@@ -1,0 +1,26 @@
+{
+  "name": "cotaki",
+  "version": "1.0.0",
+  "description": "application of quotation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "knex": "knex --knexfile ./knexfile.js"
+  },
+  "author": "Felipe Fontana <felipe@incodigo.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^0.10.4",
+    "bookshelf-bcrypt": "^2.1.0",
+    "bookshelf-secure-password": "^3.0.1",
+    "bookshelf-uuid": "^1.0.0",
+    "boom": "^6.0.0",
+    "hapi": "^16.6.2",
+    "joi": "^13.0.1",
+    "knex": "^0.13.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "standart": "^6.1.0"
+  }
+}
